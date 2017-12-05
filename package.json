@@ -1,0 +1,35 @@
+{
+  "name": "2020-candidate-bot",
+  "version": "1.0.0",
+  "description": "Infers facts about the members of bands and TV shows!",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/2020-candidate-bot.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/2020-candidate-bot/issues"
+  },
+  "homepage": "https://github.com/jimkang/2020-candidate-bot",
+  "devDependencies": {
+    "assert-no-error": "^1.0.0",
+    "lodash.uniq": "^4.5.0",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "call-next-tick": "^2.0.1",
+    "get-random-wiki-topic": "^1.0.4",
+    "iscool": "^1.1.56",
+    "probable": "^2.1.1",
+    "split-to-words": "^1.0.2",
+    "standard-bail": "^2.0.1",
+    "twit": "^2.2.4"
+  }
+}
